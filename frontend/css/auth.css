@@ -1,11 +1,11 @@
 html, body {
-	margin: 0;
-	padding: 0;
-	color: #121212;
-	overflow-y: auto;
-	font-family: "Oswald", Sans-serif;
-	z-index: 0;
-	background-image: url('bg.WebP');
+    margin: 0;
+    padding: 0;
+    color: #121212;
+    overflow-y: auto;
+    font-family: "Oswald", Sans-serif;
+    z-index: 0;
+    background-image: url('bg.WebP');
     background-size: cover;  
     background-repeat: no-repeat;  
     background-position: center center;  
