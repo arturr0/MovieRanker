@@ -281,7 +281,7 @@ document.addEventListener('userDataReady', () => {
 				console.error('Error rating item:', error);
 			}
 		} else {
-			alert('Invalid rating! Please provide a number between 1 and 5.');
+			alert('Invalid rating! Please select a rating from 1 to 5 stars.');
 		}
 	}
 	
