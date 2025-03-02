@@ -14,12 +14,14 @@ section.text {
 	margin-top: -55px;
 }
 h1 {
+	min-height: 50px;
 	font-family: "Oswald", Sans-serif;
 	text-transform: uppercase;
 	font-weight: 400;
 	width: 100%;
   	text-align: center;
 	position: relative;
+	
 }
 h1 span {
 	display: inline-block;
