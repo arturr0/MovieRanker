@@ -13,6 +13,7 @@ This is a **NestJS-based API** for ranking movies and movie-related people. The 
 
 ## Tech Stack
 - **NestJS** - Backend framework
+- **React.js** - Frontend framework
 - **TypeScript** - Strongly-typed JavaScript
 - **PostgreSQL** - Database
 - **Prisma** - Database ORM
