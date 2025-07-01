@@ -1,5 +1,7 @@
 # Movie Ranking API
 
+![Chat App Preview](https://cdn.glitch.global/0c5397c2-8b81-453e-a90c-14d5c20cfd5d/movie.png?v=1744715671809)
+
 This is a **NestJS-based API** for ranking movies and movie-related people. The application allows users to rank movies, actors, and directors, while providing real-time updates using **Server-Sent Events (SSE)**. Authentication and security are handled using **JWT** and **bcrypt**.
 
 ## <a href="https://movieranker-gavh.onrender.com" target="_blank">https://movieranker-gavh.onrender.com</a>
