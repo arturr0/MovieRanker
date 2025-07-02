@@ -2,7 +2,6 @@
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)  
 ![Tech](https://img.shields.io/badge/-NestJS-E0234E) ![Tech](https://img.shields.io/badge/-React-61DAFB) ![Tech](https://img.shields.io/badge/-TypeScript-3178C6) ![Tech](https://img.shields.io/badge/-PostgreSQL-4169E1) ![Tech](https://img.shields.io/badge/-SSE-010101)  
 
-🖼️ **Preview**:  
 ![Movie API Preview](https://cdn.glitch.global/0c5397c2-8b81-453e-a90c-14d5c20cfd5d/movie.png)  
 
 🌐 **Live Demo**: [https://movieranker-gavh.onrender.com](https://movieranker-gavh.onrender.com)  
