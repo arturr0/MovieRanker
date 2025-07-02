@@ -20,7 +20,7 @@
 - **Security**: ![JWT](https://img.shields.io/badge/-JWT-000000) ![Bcrypt](https://img.shields.io/badge/-Bcrypt-FF5722)  
 
 ### 📝 Notes  
-🎬 **Data Source**: Pulls movie data from [TMDB](https://www.themoviedb.org/)  
+🎬 **Data Source**: Pulls movie data from [TMDB API](https://developer.themoviedb.org/docs/getting-started)  
 ⚡ **Realtime**: Uses SSE (not WebSockets) for live updates  
 
 ### 🔌 API Endpoints  
