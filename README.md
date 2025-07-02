@@ -1,46 +1,33 @@
-# Movie Ranking API
+## Movie Ranking API  
+![Status](https://img.shields.io/badge/status-complete-brightgreen)  
+![Tech](https://img.shields.io/badge/-NestJS-E0234E) ![Tech](https://img.shields.io/badge/-React-61DAFB) ![Tech](https://img.shields.io/badge/-TypeScript-3178C6) ![Tech](https://img.shields.io/badge/-PostgreSQL-4169E1) ![Tech](https://img.shields.io/badge/-SSE-010101)  
 
-![Chat App Preview](https://cdn.glitch.global/0c5397c2-8b81-453e-a90c-14d5c20cfd5d/movie.png?v=1744715671809)
+🖼️ **Preview**:  
+![Movie API Preview](https://cdn.glitch.global/0c5397c2-8b81-453e-a90c-14d5c20cfd5d/movie.png)  
 
-This is a **NestJS-based API** for ranking movies and movie-related people. The application allows users to rank movies, actors, and directors, while providing real-time updates using **Server-Sent Events (SSE)**. Authentication and security are handled using **JWT** and **bcrypt**.
+🌐 **Live Demo**: [https://movieranker-gavh.onrender.com](https://movieranker-gavh.onrender.com)  
 
-## <a href="https://movieranker-gavh.onrender.com" target="_blank">https://movieranker-gavh.onrender.com</a>
+### ✨ Features  
+- JWT authentication with bcrypt hashing  
+- Movie/actor/director ranking system  
+- Real-time updates via Server-Sent Events (SSE)  
+- Integration with TMDB for movie data  
+- RESTful API endpoints  
 
-## Features
-- **User Authentication**: Secure login and registration using **JWT** and **bcrypt** for password hashing.
-- **Movie & People Ranking**: Users can vote and rank movies, actors, and directors.
-- **Real-time Updates**: Utilizes **Server-Sent Events (SSE)** to push live updates to clients.
-- **RESTful API**: Provides structured API endpoints for managing movies, rankings, and users.
-- **Movie Data from TMDB**: Movies and related data are sourced from [The Movie Database (TMDB)](https://www.themoviedb.org/).
+### 🛠️ Tech Stack  
+- **Backend**: ![NestJS](https://img.shields.io/badge/-NestJS-E0234E) ![Prisma](https://img.shields.io/badge/-Prisma-2D3748)  
+- **Frontend**: ![React](https://img.shields.io/badge/-React-61DAFB) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6)  
+- **Database**: ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1)  
+- **Security**: ![JWT](https://img.shields.io/badge/-JWT-000000) ![Bcrypt](https://img.shields.io/badge/-Bcrypt-FF5722)  
 
-## Tech Stack
-- **NestJS** - Backend framework
-- **React.js** - Frontend framework
-- **TypeScript** - Strongly-typed JavaScript
-- **PostgreSQL** - Database
-- **Prisma** - Database ORM
-- **JWT & bcrypt** - Authentication & security
-- **Server-Sent Events (SSE)** - Real-time updates
+### 📝 Notes  
+🎬 **Data Source**: Pulls movie data from [TMDB](https://www.themoviedb.org/)  
+⚡ **Realtime**: Uses SSE (not WebSockets) for live updates  
 
-## API Endpoints
-
-### **Authorization**
-- `POST /auth/register` - Register a new user
-- `POST /auth/login` - Login and get JWT token
-
-### **Movies**
-- `GET /movies` - Get all movies
-- `GET /movies/protected` - Get protected movie data (Authorization required)
-- `GET /movies/search` - Search for movies or people (Actor, Director, or Title)
-- `POST /movies/rate` - Rate a movie or a person (Authorization required)
-
-### **Ranking**
-- `POST /movies/:id/rank` - Rank a movie (Authorization required)
-- `GET /movies/:id/rank` - Get movie ranking
-
-### **SSE (Real-time updates)**
-- `GET /movies/updates` - Receive live updates via Server-Sent Events (SSE)
-
-
-
-
+### 🔌 API Endpoints  
+| Type       | Endpoint                | Description                          |
+|------------|-------------------------|--------------------------------------|
+| `POST`     | `/auth/register`        | User registration                   |
+| `POST`     | `/auth/login`           | Login + JWT token                   |
+| `GET`      | `/movies/updates`       | SSE stream for real-time updates    |
+| `POST`     | `/movies/rate`          | Rate movies/people (auth required)  |
